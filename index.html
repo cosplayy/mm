@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elips</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="images.png" type="image/png" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="images.png" alt="elips App Logo" class="app-logo" />
+        <h1>API Data</h1>
+        <label class="switch">
+          <input type="checkbox" id="autoRefreshToggle" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div id="data"></div>
+    </div>
+    <script src="app.js"></script>
+    <script src="service-worker.js"></script>
+  </body>
+</html>
